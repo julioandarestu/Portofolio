@@ -1,0 +1,496 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  background-color: white;
+}
+
+/* Navbar */
+
+nav {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  padding-left: 25px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.navList a.active {
+  color: #558240 !important;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 550;
+}
+
+nav ul li a:hover {
+  color: #558240;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 2px solid #558240;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.myBio {
+  color: rgba(255, 255, 255, 0.701);
+  padding-top: 25px;
+}
+
+/* Navbar */
+
+/* body */
+
+/* Jumbotron */
+
+.jumbotron {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+}
+
+.data h1 {
+  line-height: 55px;
+}
+
+.data h2 {
+  padding-top: 5px;
+  font-weight: 300 !important;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.jumbotron-p {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  line-height: 20px;
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.data {
+  padding-right: 120px;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.hello {
+  color: #558240;
+}
+
+/* Jumbotron */
+
+/* Profil Diri */
+
+.profil {
+  display: flex;
+  justify-content: space-between;
+}
+
+.julio1 {
+  width: 25%;
+  height: 425px;
+}
+
+.julio1 img {
+  width: 360px;
+}
+
+.julio2 {
+  display: flex;
+  height: 425px;
+  width: 23.3%;
+}
+
+.julio2 img {
+  object-fit: cover;
+  width: 355px;
+}
+
+.aboutMe h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.hai h2 {
+  display: flex;
+  margin-top: 40px;
+  padding-left: 100px;
+}
+
+.background {
+  justify-content: center;
+  text-align: justify;
+  margin-top: 5px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 120%;
+}
+
+.tempat {
+  text-align: right;
+  margin-top: 80px;
+  padding-right: 100px;
+}
+
+.tanggal {
+  text-align: right;
+  margin-top: 5px;
+  padding-right: 100px;
+}
+
+/* Profil Diri */
+
+/* Container */
+
+.edu-container {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  gap: 40px;
+}
+
+/* Container */
+
+/* Education */
+.edu-tittle {
+  text-decoration: overline;
+  background-color: #1e1e1e;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.kuliah {
+  margin-left: 48px;
+  display: flex;
+}
+
+.unsri {
+  max-width: 150px;
+}
+
+.detail-kuliah {
+  padding-top: 35px;
+}
+
+.detail-kuliah p {
+  color: white;
+}
+
+.tahun {
+  font-weight: bold !important;
+  color: #558240 !important;
+}
+
+.sekolah {
+  font-weight: 600 !important;
+}
+
+.sma {
+  display: flex;
+}
+
+.detail-sma {
+  padding-top: 35px;
+}
+
+.sma p {
+  text-align: right;
+  color: white;
+
+  font-size: 100%;
+  font-weight: 300;
+}
+
+.smaneta {
+  width: 200px;
+  padding-left: 14px;
+}
+
+.smaneta img {
+  max-width: 230px;
+  max-height: 150px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+/* Education */
+
+/* Achivments */
+
+.container-achivements {
+  background-color: #1e1e1e;
+}
+
+.achiv-tittle {
+  background-color: #1e1e1e;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.first {
+  display: flex;
+  padding-top: 30px;
+  padding-left: 465px;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.first img {
+  padding-bottom: 10px;
+  width: 95px;
+  border-radius: 10px;
+}
+
+.juara1 {
+  text-align: justify;
+  padding-left: 23px;
+  padding-right: 586px;
+}
+
+.third {
+  display: flex;
+  padding-top: 35px;
+  padding-left: 465px;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.third img {
+  width: 95px;
+  border-radius: 65px;
+}
+
+.juara3 {
+  text-align: justify;
+  padding-left: 23px;
+  padding-right: 586px;
+}
+
+.rank {
+  color: #558240;
+}
+
+/* Achivments */
+
+/* Work Experiences */
+.work-tittle {
+  background-color: #1e1e1e;
+  display: flex;
+  color: #ffffff;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.work-container {
+  background-color: #1e1e1e;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 40px;
+}
+
+.maju-ind {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.work-position p {
+  color: white;
+}
+
+.office {
+  font-weight: bold !important;
+  color: #558240 !important;
+}
+
+.job-pos {
+  font-weight: 600 !important;
+}
+
+.lg-mi img {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.work-detail {
+  text-align: justify;
+  padding-left: 35px;
+  color: #ffffff;
+  width: 450px;
+}
+
+.timah {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  gap: 20px;
+}
+
+.lg-timah img {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+.work-position-timah p {
+  padding-right: 15px;
+  color: white;
+}
+
+.work-detail-timah {
+  text-align: justify;
+  padding-left: 35px;
+  color: #ffffff;
+  width: 450px;
+}
+/* Work Experiences */
+
+/* Bootcamp */
+
+.boot-tittle {
+  background-color: white;
+  display: flex;
+  color: #1e1e1e;
+  text-decoration: overline;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.boot-container {
+  background-color: white;
+  padding-top: 10px;
+  padding-right: 120px;
+  padding-bottom: 40px;
+}
+
+.hacktiv {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 40px;
+  padding-left: 184px;
+}
+
+.bootcamp p {
+  color: #1e1e1e;
+}
+
+.boot-name {
+  font-weight: bold !important;
+}
+
+.bootcamp img {
+  max-width: 300px;
+  max-height: 100px;
+}
+
+.boot-detail {
+  text-align: justify;
+  padding-left: 19px;
+  color: #1e1e1e;
+  width: 450px;
+}
+
+.zenius {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 32px;
+  padding-left: 181px;
+}
+
+.bootcamp-zenius img {
+  max-width: 168px;
+  max-height: 70px;
+}
+
+.bootcamp-zenius p {
+  padding-right: 15px;
+  color: #1e1e1e;
+}
+
+.boot-detail-zenius {
+  text-align: justify;
+  padding-left: 6.5px;
+  color: #1e1e1e;
+  width: 437px;
+}
+
+.binar {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  gap: 32px;
+  padding-left: 180px;
+}
+
+.bootcamp-binar img {
+  max-width: 168px;
+  max-height: 70px;
+}
+
+.bootcamp-binar p {
+  padding-right: 15px;
+  color: #1e1e1e;
+}
+
+.boot-detail-binar {
+  text-align: justify;
+  padding-left: 38.5px;
+  color: #1e1e1e;
+  width: 468px;
+}
+/* Bootcamp */
+
+/* body */
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+
+.footer p {
+  display: flex;
+  color: #ffffffc8;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Footer */
