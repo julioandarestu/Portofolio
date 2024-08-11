@@ -131,7 +131,7 @@ nav ul li a:hover {
 
 .julio2 img {
   object-fit: cover;
-  width: 355px;
+  width: 353px;
 }
 
 .aboutMe h1 {
@@ -192,7 +192,6 @@ nav ul li a:hover {
 }
 
 .kuliah {
-  margin-left: 48px;
   display: flex;
 }
 
@@ -219,6 +218,7 @@ nav ul li a:hover {
 
 .sma {
   display: flex;
+  gap: 10px;
 }
 
 .detail-sma {
@@ -226,20 +226,14 @@ nav ul li a:hover {
 }
 
 .sma p {
-  text-align: right;
+  text-align: left;
   color: white;
-
   font-size: 100%;
   font-weight: 300;
 }
 
-.smaneta {
-  width: 200px;
-  padding-left: 14px;
-}
-
-.smaneta img {
-  max-width: 230px;
+.sma img {
+  max-width: 130px;
   max-height: 150px;
   padding-top: 10px;
   padding-bottom: 15px;
@@ -249,6 +243,10 @@ nav ul li a:hover {
 /* Achivments */
 
 .container-achivements {
+  display: flex;
+  gap: 40px;
+  padding-left: 5px;
+  justify-content: center;
   background-color: #1e1e1e;
 }
 
@@ -262,41 +260,41 @@ nav ul li a:hover {
 
 .first {
   display: flex;
+  width: 400px;
   padding-top: 30px;
-  padding-left: 465px;
   justify-content: center;
+  gap: 10px;
   color: #ffffff;
 }
 
 .first img {
   padding-bottom: 10px;
-  width: 95px;
-  border-radius: 10px;
+  width: 118px;
+
+  border-radius: 15px;
 }
 
 .juara1 {
   text-align: justify;
-  padding-left: 23px;
-  padding-right: 586px;
 }
 
 .third {
   display: flex;
-  padding-top: 35px;
-  padding-left: 465px;
-  justify-content: center;
+  padding-top: 30px;
+  width: 400px;
+  padding-left: 12px;
+  gap: 10px;
   color: #ffffff;
 }
 
 .third img {
-  width: 95px;
-  border-radius: 65px;
+  width: 127px;
+  height: 115px;
+  border-radius: 70px;
 }
 
 .juara3 {
   text-align: justify;
-  padding-left: 23px;
-  padding-right: 586px;
 }
 
 .rank {

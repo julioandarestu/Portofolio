@@ -1,0 +1,287 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+body {
+  background-color: #f9f9f9;
+}
+
+/* Navbar */
+
+nav {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-logo {
+  display: flex;
+  padding-left: 25px;
+}
+
+.navList {
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.navList a.active {
+  color: #558240 !important;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 550;
+}
+
+nav ul li a:hover {
+  color: #558240;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 2px solid #558240;
+}
+
+.logo img {
+  height: 60px;
+}
+
+.myBio {
+  color: rgba(255, 255, 255, 0.701);
+  padding-top: 25px;
+}
+
+/* Navbar */
+
+/* Body */
+
+/* Jumbotron */
+
+.jumbotron {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  padding-bottom: 130px;
+}
+
+.data h1 {
+  line-height: 55px;
+}
+
+.data h2 {
+  padding-top: 5px;
+  font-weight: 300 !important;
+  font-size: 15px;
+  font-style: italic;
+}
+
+.jumbotron-p {
+  padding-bottom: 40px;
+  padding-top: 40px;
+  line-height: 20px;
+  font-weight: 450;
+  font-size: 20px;
+}
+
+.data {
+  z-index: 1;
+  padding-right: 120px;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+}
+
+.hello {
+  color: #558240;
+}
+
+.jumbotron img {
+  position: relative;
+  margin-left: 40px;
+  max-width: 125px;
+}
+
+/* Jumbotron */
+
+/* Portofolio */
+
+.porto-tittle {
+  padding-top: 25px;
+  color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  padding-bottom: 40px;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.platform {
+  padding-top: 2px;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+}
+
+.content1,
+.content2,
+.content3 {
+  padding-top: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(182, 179, 179, 0.3),
+    -2px -2px 2px rgba(182, 179, 179, 0.3);
+  border-radius: 10px;
+  /* border: 1px dashed grey; */
+}
+
+.foto-content {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.foto-content2 {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.foto-content2 img {
+  width: 216.5px;
+}
+
+.foto-content img {
+  width: 280px;
+}
+
+.tittle-content {
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.detail-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.desc-content {
+  padding-top: 20px;
+  width: 300px;
+  text-align: justify;
+}
+
+/* User Interface */
+
+/* Poster */
+
+.poster-tittle {
+  color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+}
+
+.poster-container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  text-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.poster-tittle-content {
+  padding-top: 10px;
+}
+
+.perbankan,
+.who,
+.password {
+  background-color: white;
+  box-shadow: 2px 2px 2px rgba(182, 179, 179, 0.3),
+    -2px -2px 2px rgba(182, 179, 179, 0.3);
+  border-radius: 10px;
+}
+
+.poster-img img {
+  width: 350px;
+  border-radius: 10px, 10px, 0, 0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(182, 179, 179, 0.3),
+    -2px -2px 2px rgba(182, 179, 179, 0.3);
+}
+
+.poster-tittle-content {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.poster-desc-content {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  width: 350px;
+  justify-content: space-around;
+  text-align: justify;
+}
+
+.year {
+  padding-top: 2px;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+}
+/* Poster */
+
+/* Portofolio */
+
+/* Body */
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+}
+
+.footer p {
+  display: flex;
+  color: #ffffffc8;
+  font-size: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+/* Footer */
