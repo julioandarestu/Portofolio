@@ -473,6 +473,94 @@ nav ul li a:hover {
 }
 /* Bootcamp */
 
+/* Contact */
+
+.contact-container {
+  display: flex;
+  padding-top: 40px;
+  width: 1Hz;
+  height: 530px;
+  padding-bottom: 50px;
+
+  background-color: #1e1e1e;
+}
+
+.contact-sosmed h3 {
+  color: #ffffff;
+}
+
+.contact-desc {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  width: 440px;
+  text-align: justify;
+}
+
+.contact-sosmed h3 {
+  font-size: 40px;
+  padding-top: 10px;
+}
+
+.contact-sosmed {
+  padding-top: 60px;
+  padding-left: 150px;
+}
+
+.sosmed {
+  padding-top: 10px;
+}
+
+.sosmed a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.whatsapp,
+.instagram,
+.linkedin {
+  padding-bottom: 20px;
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  color: white;
+  text-decoration: none;
+}
+
+.whatsapp a:hover {
+  color: #558240;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.instagram a:hover {
+  color: #558240;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.linkedin a:hover {
+  color: #558240;
+  transition: all;
+  transition-duration: 300ms;
+}
+
+.contact-form {
+  padding-top: 20px;
+  padding-left: 250px;
+}
+
+.contact-form img {
+  width: 400px;
+}
+
+/* Contact */
+
 /* body */
 
 /* Footer */
